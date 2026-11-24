@@ -41,6 +41,7 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+set_connection_and_variables.sh
 
 # Unit test / coverage reports
 htmlcov/
