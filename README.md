@@ -49,7 +49,7 @@ In the DAG, add `default parameters` based on these guidelines:
 * No email on retry.
 
 Additionally, configure task dependencies to match the flow depicted in the image below:
-![Working DAG with correct task dependencies](assets/final_project_dag_graph2.png)
+![Working DAG with correct task dependencies](assets/Dag_Graph_Final_Project.png)
 
 ## Developing Operators
 To complete the project, build four operators for staging data, transforming data, and performing data quality checks. While you can reuse code from Project 2, leverage Airflow's built-in functionalities like connections and hooks whenever possible to let Airflow handle the heavy lifting.
