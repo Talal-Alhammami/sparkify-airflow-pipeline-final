@@ -3,10 +3,10 @@ import pendulum
 from airflow.decorators import dag
 from airflow.models import Variable
 from airflow.operators.dummy_operator import DummyOperator
-from final_project_operators.stage_redshift import StageToRedshiftOperator
-from final_project_operators.load_fact import LoadFactOperator
-from final_project_operators.load_dimension import LoadDimensionOperator
-from final_project_operators.data_quality import DataQualityOperator
+from operators.stage_redshift import StageToRedshiftOperator
+from operators.load_fact import LoadFactOperator
+from operators.load_dimension import LoadDimensionOperator
+from operators.data_quality import DataQualityOperator
 from helpers import SqlQueries
 
 S3_BUCKET = Variable.get('s3_bucket')
